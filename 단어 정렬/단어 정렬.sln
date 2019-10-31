@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "단어 정렬", "단어 정렬\단어 정렬.vcxproj", "{66BF5865-38D6-40F6-A730-4764B1C653D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66BF5865-38D6-40F6-A730-4764B1C653D8}.Debug|x64.ActiveCfg = Debug|x64
+		{66BF5865-38D6-40F6-A730-4764B1C653D8}.Debug|x64.Build.0 = Debug|x64
+		{66BF5865-38D6-40F6-A730-4764B1C653D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{66BF5865-38D6-40F6-A730-4764B1C653D8}.Debug|x86.Build.0 = Debug|Win32
+		{66BF5865-38D6-40F6-A730-4764B1C653D8}.Release|x64.ActiveCfg = Release|x64
+		{66BF5865-38D6-40F6-A730-4764B1C653D8}.Release|x64.Build.0 = Release|x64
+		{66BF5865-38D6-40F6-A730-4764B1C653D8}.Release|x86.ActiveCfg = Release|Win32
+		{66BF5865-38D6-40F6-A730-4764B1C653D8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDC6BE6D-CB23-48B4-AD87-B33ACA4C2F91}
+	EndGlobalSection
+EndGlobal
