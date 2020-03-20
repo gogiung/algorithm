@@ -17,7 +17,7 @@ bool valid(vector<int> & v)
         }
         else if (sign[i] == '>' && v[i] < v[i + 1]) {
             return false;
-        }
+        } 
         //모순이 없을 경우
     }
     return true;

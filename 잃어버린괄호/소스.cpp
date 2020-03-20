@@ -11,7 +11,7 @@ int main() {
 	string temp = "";
 	int result = 0;
 	int minus = 0;
-	for (int i = 0; i <= s.size(); i++) {
+	for (int i = 0; i <= s.length(); i++) {
 		if (s[i] == '+' || s[i] == '-' || s[i] == NULL) 
 		{
 			if (minus == 1) {
