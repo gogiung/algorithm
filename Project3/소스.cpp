@@ -1,20 +1,16 @@
 #include<iostream>
 #include<algorithm>
-#include<string>
+#include<queue>
 
 using namespace std;
 
+int list[3];
 int main() {
-	int n;
-	cin >> n;
+	for (int i = 0; i < 3; i++) {
+		string temp;
+		cin >> temp;
+		list[i] = temp[i] ;
 
-	for (int i = 1; i <= n; i++) {
-		for (int j = 0; j < n - i; j++){
-			cout << " ";
 	}
-		for (int j = 0; j < i; j++) {
-			cout << "*";
-		}
-		cout << endl;
-	}
+	cout << list[0];
 }
