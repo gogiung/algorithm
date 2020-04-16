@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11054 가장 긴 바이토닉 부분 수열", "11054 가장 긴 바이토닉 부분 수열.vcxproj", "{E2F9A508-761B-4521-99D5-1F5620A54DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2F9A508-761B-4521-99D5-1F5620A54DCB}.Debug|x64.ActiveCfg = Debug|x64
+		{E2F9A508-761B-4521-99D5-1F5620A54DCB}.Debug|x64.Build.0 = Debug|x64
+		{E2F9A508-761B-4521-99D5-1F5620A54DCB}.Debug|x86.ActiveCfg = Debug|Win32
+		{E2F9A508-761B-4521-99D5-1F5620A54DCB}.Debug|x86.Build.0 = Debug|Win32
+		{E2F9A508-761B-4521-99D5-1F5620A54DCB}.Release|x64.ActiveCfg = Release|x64
+		{E2F9A508-761B-4521-99D5-1F5620A54DCB}.Release|x64.Build.0 = Release|x64
+		{E2F9A508-761B-4521-99D5-1F5620A54DCB}.Release|x86.ActiveCfg = Release|Win32
+		{E2F9A508-761B-4521-99D5-1F5620A54DCB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AEF5CA1-496A-49BC-95D2-B0829F2A2F8D}
+	EndGlobalSection
+EndGlobal

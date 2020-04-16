@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11656 접미사 배열", "11656 접미사 배열.vcxproj", "{FEDA6924-520D-48F1-8A7E-3D174FF5E0A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDA6924-520D-48F1-8A7E-3D174FF5E0A2}.Debug|x64.ActiveCfg = Debug|x64
+		{FEDA6924-520D-48F1-8A7E-3D174FF5E0A2}.Debug|x64.Build.0 = Debug|x64
+		{FEDA6924-520D-48F1-8A7E-3D174FF5E0A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEDA6924-520D-48F1-8A7E-3D174FF5E0A2}.Debug|x86.Build.0 = Debug|Win32
+		{FEDA6924-520D-48F1-8A7E-3D174FF5E0A2}.Release|x64.ActiveCfg = Release|x64
+		{FEDA6924-520D-48F1-8A7E-3D174FF5E0A2}.Release|x64.Build.0 = Release|x64
+		{FEDA6924-520D-48F1-8A7E-3D174FF5E0A2}.Release|x86.ActiveCfg = Release|Win32
+		{FEDA6924-520D-48F1-8A7E-3D174FF5E0A2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {565DA71F-8213-4BB5-86CC-42AF47165796}
+	EndGlobalSection
+EndGlobal

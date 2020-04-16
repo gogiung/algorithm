@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2902 KMP는 왜 KMP일까", "2902 KMP는 왜 KMP일까.vcxproj", "{102F3023-66C4-4602-9BD9-EA3C0B34F5F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{102F3023-66C4-4602-9BD9-EA3C0B34F5F8}.Debug|x64.ActiveCfg = Debug|x64
+		{102F3023-66C4-4602-9BD9-EA3C0B34F5F8}.Debug|x64.Build.0 = Debug|x64
+		{102F3023-66C4-4602-9BD9-EA3C0B34F5F8}.Debug|x86.ActiveCfg = Debug|Win32
+		{102F3023-66C4-4602-9BD9-EA3C0B34F5F8}.Debug|x86.Build.0 = Debug|Win32
+		{102F3023-66C4-4602-9BD9-EA3C0B34F5F8}.Release|x64.ActiveCfg = Release|x64
+		{102F3023-66C4-4602-9BD9-EA3C0B34F5F8}.Release|x64.Build.0 = Release|x64
+		{102F3023-66C4-4602-9BD9-EA3C0B34F5F8}.Release|x86.ActiveCfg = Release|Win32
+		{102F3023-66C4-4602-9BD9-EA3C0B34F5F8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04AA7DD8-987B-4999-B93F-7054EC77A45A}
+	EndGlobalSection
+EndGlobal
