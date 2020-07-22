@@ -69,3 +69,14 @@ vector<int> solution(int m, int n, vector<vector<int>> picture) {
 
     return answer;
 }
+
+int main() {
+    int m = 6, n = 4;
+    vector<vector<int>> picture = { {1, 1, 1, 0} ,{1, 2, 2, 0},{1, 0, 0, 1},{0, 0, 0, 1},{0, 0, 0, 3},{0, 0, 0, 3} };
+
+    vector<int> ans = solution(m, n, picture);
+    for (int i = 0; i < ans.size(); i++) {
+        cout << ans[i]<<" ";
+    }
+    
+}

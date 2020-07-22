@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "(프로그래머스) 주식가격", "(프로그래머스) 주식가격.vcxproj", "{BC3BD338-85EA-4DFD-9AD0-47B3B52022AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC3BD338-85EA-4DFD-9AD0-47B3B52022AD}.Debug|x64.ActiveCfg = Debug|x64
+		{BC3BD338-85EA-4DFD-9AD0-47B3B52022AD}.Debug|x64.Build.0 = Debug|x64
+		{BC3BD338-85EA-4DFD-9AD0-47B3B52022AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC3BD338-85EA-4DFD-9AD0-47B3B52022AD}.Debug|x86.Build.0 = Debug|Win32
+		{BC3BD338-85EA-4DFD-9AD0-47B3B52022AD}.Release|x64.ActiveCfg = Release|x64
+		{BC3BD338-85EA-4DFD-9AD0-47B3B52022AD}.Release|x64.Build.0 = Release|x64
+		{BC3BD338-85EA-4DFD-9AD0-47B3B52022AD}.Release|x86.ActiveCfg = Release|Win32
+		{BC3BD338-85EA-4DFD-9AD0-47B3B52022AD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51EC05D7-B5F7-46D0-B989-D6E02681D6DC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2816 디지털 티비", "2816 디지털 티비.vcxproj", "{2E0C2C3E-7CF4-454A-88EE-53802B29ACC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0C2C3E-7CF4-454A-88EE-53802B29ACC1}.Debug|x64.ActiveCfg = Debug|x64
+		{2E0C2C3E-7CF4-454A-88EE-53802B29ACC1}.Debug|x64.Build.0 = Debug|x64
+		{2E0C2C3E-7CF4-454A-88EE-53802B29ACC1}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E0C2C3E-7CF4-454A-88EE-53802B29ACC1}.Debug|x86.Build.0 = Debug|Win32
+		{2E0C2C3E-7CF4-454A-88EE-53802B29ACC1}.Release|x64.ActiveCfg = Release|x64
+		{2E0C2C3E-7CF4-454A-88EE-53802B29ACC1}.Release|x64.Build.0 = Release|x64
+		{2E0C2C3E-7CF4-454A-88EE-53802B29ACC1}.Release|x86.ActiveCfg = Release|Win32
+		{2E0C2C3E-7CF4-454A-88EE-53802B29ACC1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC255004-C277-4E04-82F5-4BE5E1EF5F17}
+	EndGlobalSection
+EndGlobal
