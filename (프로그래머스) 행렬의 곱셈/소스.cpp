@@ -7,6 +7,7 @@ using namespace std;
 // [[1, 4], [3, 2], [4, 1]]	 *   [[3, 3], [3, 3]]  =	[[15, 15], [15, 15], [15, 15]] 
 
 vector<vector<int>> solution(vector<vector<int>> arr1, vector<vector<int>> arr2) {
+
     vector<vector<int>> answer(arr1.size(), vector<int>(arr2[0].size(), 0));
     vector<int> a;
 

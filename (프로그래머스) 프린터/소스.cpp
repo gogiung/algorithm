@@ -28,7 +28,7 @@ int solution(vector<int> priorities, int location) {
 
 int main(){
     vector<int> priorities = { 1,1,9,1,1,1};
-    int location = 1;
+    int location = 0;
     int ans = solution(priorities, location);
     cout << ans;
 }

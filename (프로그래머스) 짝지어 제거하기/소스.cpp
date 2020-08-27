@@ -6,12 +6,24 @@ using namespace std;
 int solution(string s)
 {
     stack<char> a;
-    for (char i : s)
+    for (char i : s) {
         if (a.empty() || a.top() != i) {
             a.push(i);
         }
-        else	a.pop();
-    return a.empty();
+        else
+        {
+            a.pop();
+        }
+    }
+
+
+    if (a.empty()) {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
     
 }
 

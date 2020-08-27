@@ -21,7 +21,7 @@ vector<int> solution(vector<int> prices) {
 }
 
 int main() {
-    vector<int> prices = { 1,2,3,1,1 };
+    vector<int> prices = { 1,2,3,2,3 };
     vector<int> ans = solution(prices);
     for (int i = 0; i < ans.size(); i++) {
         cout << ans[i] << " ";

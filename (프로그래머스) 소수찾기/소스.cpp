@@ -42,7 +42,7 @@ int solution(string numbers) {
 
 
 int main() {
-    string numbers = "011";
+    string numbers = "17";
     int ans = solution(numbers);
     cout << ans;
 }

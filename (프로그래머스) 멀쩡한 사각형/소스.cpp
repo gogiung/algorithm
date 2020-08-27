@@ -25,6 +25,7 @@ long long solution(int w, int h) {
 }
 
 int main() {
-    solution(8, 12);
-	
+    
+	long long ans = solution(8, 12);
+	cout << ans;
 }
