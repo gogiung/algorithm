@@ -10,6 +10,7 @@ int map[8][8];
 int visit[8][8];
 vector<pair<int, int>> v;
 int n, m;
+
 void dfs(int x,int y) {
 	for (int i = 0; i < 4; i++) {
 		int newx = x + plusx[i];

@@ -13,7 +13,7 @@ int vj[4] = { -1,1,0,0 };
 int n, m, k;
 int cnt;
 
-vector<int> vec;
+
 
 void dfs(int x, int y) {
 	for (int i = 0; i < 4; i++) {

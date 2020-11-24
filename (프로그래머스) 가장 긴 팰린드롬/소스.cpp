@@ -1,29 +1,30 @@
 #include <iostream>
 #include <string>
-#include <algorithm>
-
 using namespace std;
 int solution(string s)
 {
-    int answer = 0;
-    int length = s.length();
+    int len = s.size();
 
-    for (int i = 0; i < length; i++) {
-        for (int subLength = length; subLength > answer; subLength--) {
+    while (len >= 2) { // 검사해보려는 문자열의 길이. 6,5,4..2
+        for (int i = 0; i <= s.size() - len; i++) {  // left와 right를 오른쪽으로 한칸씩 이동. 0,3 -> 1,4 -> 2,5 ...
             int left = i;
-            int right = left + subLength - 1;
-            while (left < right && s[left] == s[right]) {
+            int right = len + i - 1;
+            bool flag = true;
+            while (left < right) {  // 실제로 펠린드롬인지 확인
+                if (s[left] != s[right]) {
+                    flag = false;
+                    break;
+                }
                 left++;
                 right--;
             }
-            if (left >= right && answer < subLength) {
-                answer = subLength;
-                break;
+            if (flag) {
+                return len;
             }
         }
+        len--;
     }
-
-    return answer;
+    return 1;
 }
 
 

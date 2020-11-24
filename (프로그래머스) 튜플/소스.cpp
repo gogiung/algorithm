@@ -63,7 +63,7 @@ vector<int> solution(string s) {
 }
 
 int main() {
-    string s = "{{2},{2,1},{2,1,3},{2,1,3,4}}";
+    string s = "{{4,2,3},{3},{2,3,4,1},{2,3}}";
     vector<int> ans = solution(s);
     for (int i = 0; i < ans.size(); i++) {
         cout << ans[i] << " ";

@@ -1,28 +1,28 @@
 #include<iostream>
+#include<algorithm>
+#include<vector>
+#include<string>
+#include<map>
 
 using namespace std;
 
+
+
 int main() {
-	int X;
-	int cnt = 0;
-	cin >> X;
-	while (X > 1) {
-		if (X / 3 || X / 2) {
-			X -= 1;
-			cnt++;
-		}
-		if (X / 3) {
-			X /= 3;
-			cnt++;
-		}
-		if (X / 2) {
-			X /= 2;
-			cnt++;
-		}
 
+	int x, i;
+	cin >> x;
+	int dp[1000001] = {};
+
+	for (i = 2; i <= x; i++) {
+		dp[i] = dp[i - 1] + 1;
+		if (i % 2 == 0) {
+			dp[i] = min(dp[i], dp[i / 2] + 1);
+		}
+		if (i % 3 == 0) {
+			dp[i] = min(dp[i], dp[i / 3] + 1);
+		}
 	}
-	cout << cnt << endl;
-
-	return 0;
-
+	cout << dp[x];
 }
+

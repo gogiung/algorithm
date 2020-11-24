@@ -1,34 +1,44 @@
 #include <iostream>
 #include <string>
-using namespace std;
-int solution(string s)
-{
-    int len = s.size();
+#include <vector>
+#include <map>
 
-    while (len >= 2) { // 검사해보려는 문자열의 길이. 6,5,4..2
-        for (int i = 0; i <= s.size() - len; i++) {  // left와 right를 오른쪽으로 한칸씩 이동. 0,3 -> 1,4 -> 2,5 ...
-            int left = i;
-            int right = len + i - 1;
-            bool flag = true;
-            while (left < right) {  // 실제로 펠린드롬인지 확인
-                if (s[left] != s[right]) {
-                    flag = false;
-                    break;
-                }
-                left++;
-                right--;
+using namespace std;
+
+int solution(string skill, vector<string> skill_trees) {
+    int answer = 0;
+    map<char, int> tree;
+    for (int i = 0; i < skill.size(); i++) {
+        tree[skill[i]] = i + 1;
+    }
+
+    for (auto skt : skill_trees) {
+        int cnt = 1;
+        bool flag = true;
+        for (int i = 0; i < skt.size(); i++) {
+            if (tree[skt[i]] > cnt) {
+                flag = false;
+                break;
             }
-            if (flag) {
-                return len;
+            else if(tree[skt[i]] == cnt)
+            {
+                cnt++;
             }
         }
-        len--;
+
+        if (flag) {
+            answer++;
+        }
+
     }
-    return 1;
+    
+
+    return answer;
 }
 
 int main() {
-    string s = "acdc";
-    int ans = solution(s);
+    string skill = "CBD";
+    vector<string> skill_trees = { "BACDE", "CBADF", "AECB", "BDA" };
+    int ans = solution(skill, skill_trees);
     cout << ans;
 }

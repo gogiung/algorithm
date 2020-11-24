@@ -9,7 +9,9 @@ int p[16];
 int dp[16];
 int result;
 
+
 int main() {
+	
 	cin >> n;
 	for (int i = 1; i <= n; i++) {
 		cin >> t[i] >> p[i];
